@@ -1,6 +1,6 @@
 import time
 
-# 编写统计计算时间装饰器
+# 统计时间装饰器
 def col_time(func):
     def out_time(*args,**kwargs):
         t1=time.time()
